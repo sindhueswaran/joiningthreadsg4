@@ -1,0 +1,30 @@
+.wwd-items{ 
+    background-color: rgb(255, 255, 255);
+}
+
+.wwd-item{ 
+    margin: 2rem 0; 
+
+    &:nth-child(even) {
+        flex-direction: row-reverse; // 3
+        text-align: right;
+      }    
+}
+
+@media (max-width: 768px){
+    .wwd-item{ 
+        margin: 1.5rem 0; 
+    
+        &:nth-child(even) { 
+            text-align: left;
+          }    
+    }
+}
+
+.wwd-text{  
+    padding: 1rem 3rem;
+}
+
+.wwd-img { 
+    width: 60%; 
+}

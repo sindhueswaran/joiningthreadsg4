@@ -1,0 +1,61 @@
+.email-link{
+ color: black;
+ 
+ &:hover{
+     color: rgb(138, 138, 138);
+     text-decoration: none;
+ }
+}
+
+
+.form-control{
+    border: none !important;
+    margin: 0.5rem 0;
+    border: 2px solid black;
+}
+
+input[type='text'],
+input[type='email'],
+textarea{
+    padding: 0.8rem 1.6rem;
+    // border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    resize: none !important;
+    border: 1px solid black;
+    box-shadow: none;
+
+    &:hover, &:focus, &:active{
+        border: 2px solid black;
+        outline: none;
+        background-color: rgb(235, 235, 235);
+        cursor: pointer;
+    }
+}
+
+ 
+.error{
+    color: red;
+    text-align: center;
+    margin-top: -5px; 
+}
+
+
+button{
+    &.btn{ 
+        padding: .8rem 2.5rem;
+        border-radius: 0%;
+        font-size: 14px;
+        margin-top: 0.5rem;
+        margin-left: 0.8rem; 
+        width: 96%; 
+        border-color: #46767b;
+        color: #46767b;
+
+
+        &:hover{
+            background-color: #46767b;
+            border-color: #46767b;
+        }
+    }
+}
