@@ -4,7 +4,7 @@ const ContactForm = () => {
 
     return(
         <>   
-        <form className="d-grid" name="contact" method="POST" action="/thankyou" data-netlify="true" netlify-honeypot="bot-field">
+        <form className="d-grid" name="contact" method="POST" action="/thankyou/#contact" data-netlify="true" netlify-honeypot="bot-field">
           <input name="bot-field" type="hidden" name="form-name" value="contact" />
             <div className="row">
               <div className="col mb-3">
