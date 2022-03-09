@@ -1,71 +1,23 @@
 import * as React from "react"
-import { Button } from 'react-bootstrap'  
-import { Formik, Form, Field, ErrorMessage } from 'formik'
-import  * as Yup from 'yup'
-import FormError from "./formerror"
-import { navigate } from "gatsby"
-
-const initialValues = {
-    name: '',
-    email: '',
-    message: '',
-  }
-
-const validationSchema = Yup.object({
-    name: Yup.string().required('Required'),
-    email: Yup.string().email('Invalid email format').required('Required'),
-    message: Yup.string().required('Required'),
-})
-
-
-function encode(data) {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&")
-  }
-
-const onSubmit = (event) => {
-  event.preventDefault()
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: encode({
-      "form-name": event.target.getAttribute("contact"),
-       
-    })
-  }).then(() => navigate("/thank-you/")).catch(error => alert(error))
-}
-
-
-// const onSubmit = values => { 
-//     console.log(values)
-//   }
  
 const ContactForm = () => {
 
     return(
-        <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit} >
-            <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-            <input type="hidden" name="contact" value="contact" />
-                <div className="form-control"> 
-                <Field type="text" id="name" name="name" placeholder="Your Name" />
-                <ErrorMessage name="name" component={FormError} />
-                </div>
-                 
-                <div className="form-control"> 
-                <Field type="email" id="email" name="email" placeholder="Your Email" />
-                <ErrorMessage name="email" component={FormError} />
-                </div>
-
-                <div className="form-control"> 
-                <Field as="textarea" id="message" name="message" placeholder="Your message" />
-                <ErrorMessage name="message" component={FormError} />
-                </div>
-                  
-                <Button className="btn" variant="outline-dark" type="submit">SUBMIT</Button>
-                 
-            </Form>
-        </Formik>
+        <>   
+        <form className="d-grid" name="contact" method="POST" action="/thankyou" data-netlify="true" netlify-honeypot="bot-field">
+          <input name="bot-field" type="hidden" name="form-name" value="contact" />
+              <div className="mb-3">
+                <input type="text" name="name" className="form-control text-center rounded-0" placeholder="Your Name" required/> 
+              </div>
+              <div className="mb-3"> 
+                <input type="email" name="email" className="form-control text-center rounded-0" placeholder="Your Email" required/> 
+              </div>
+              <div className="mb-3 ">
+                <textarea name="message" className="form-control text-center rounded-0" rows="3" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" className="btn btn-outline-warning btn-lg rounded-0">Submit</button>
+        </form> 
+    </>
     )
 }
 
