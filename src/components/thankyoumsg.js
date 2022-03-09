@@ -34,7 +34,7 @@ const email = data.site.siteMetadata.email
       <Col xs md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }}>
         {/* <ContactForm/> */}
         
-        <h4 className="mx-auto">Thank you for your message.</h4>
+        <h4 className="text-center">Thank you for your message.</h4>
       </Col>
       </Container>
     </section>
