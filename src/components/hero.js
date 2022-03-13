@@ -10,7 +10,7 @@ const Hero = () => {
   const { HeroImage } = useStaticQuery(
     graphql`
      query {
-      HeroImage: file(relativePath: {eq: "hero.jpg"}) {
+      HeroImage: file(relativePath: {eq: "hero1.jpg"}) {
         childImageSharp {
           gatsbyImageData(placeholder: TRACED_SVG)
         }
