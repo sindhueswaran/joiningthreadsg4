@@ -18,7 +18,7 @@ const WHATWEDO = [
     {
       title: 'Education',
       image: 'whatwedo/children.jpg',
-      text: 'We offer teacher trainings and workshop-classes with children and youth using arts and crafts to facilitate various ways of learning through activities in the classroom.',
+      text: 'We offer teacher trainings and workshops to children and teenagers using arts and crafts to facilitate various different ways of learning through classroom activities.',
     },
     {
       title: 'Encouraging wealth for women',
