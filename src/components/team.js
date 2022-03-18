@@ -14,7 +14,7 @@ const TEAM = [
     {
       name: 'Barbara Münz',
       image: 'team/yb.jpg',
-      text: 'Barbara from Germany, is a mother and a yoga teacher who has been passionately creating and knitting for 50 years. She is a master crafts woman who shares her skills most generously.',
+      text: 'Barbara from Germany is a mother, yoga teacher and Master Crafts woman for 50 years. She shares her passion, time, resources and expertise most generously.',
     },
     {
       name: 'Sindhu Eswaran',
