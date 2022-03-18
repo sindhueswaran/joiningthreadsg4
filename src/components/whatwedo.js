@@ -23,7 +23,7 @@ const WHATWEDO = [
     {
       title: 'Encouraging wealth for women',
       image: 'whatwedo/markets.jpg',
-      text: 'We intend to link groups within our network who can purchase the products that will directly earn money for the women. For e.g. Atma Seva buys felted hot water bottle covers and knitted hand warmers and La Volotte in Germany bought cloth bags and felted buttons from Jan Madhyam. We also aim to encourage the women to form small co-operatives who can learn how to setup local outlets to sell their crafts independently.',
+      text: 'Our  craftswomen are currently paid cash in hand directly. It is our policy to ensure they receive Fair Trade rates for every item made enabling them to contribute to their household expenses. It is a future hope and aim to find and collaborate with interested individuals and groups who can purchase these products thereby providing support for more woman.',
     },
   ];
 
