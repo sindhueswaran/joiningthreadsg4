@@ -13,7 +13,7 @@ const WHATWEDO = [
     {
       title: 'Women Skill Building',
       image: 'whatwedo/knitting.jpg',
-      text: 'We work with womens' groups teaching and sharing knitting, crochet, felting and sewing techniques through free classes and workshops for Non Government Organisations in New Delhi, Rajasthan and Uttarakhand.',
+      text: 'We work with womens groups teaching and sharing knitting, crochet, felting and sewing techniques through free classes and workshops for Non Government Organisations in New Delhi, Rajasthan and Uttarakhand.',
     },
     {
       title: 'Education',
