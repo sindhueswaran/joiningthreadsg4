@@ -29,7 +29,7 @@ const Partners = ( ) => {
   return (
     <section id="partners">  
       <Container>  
-      <h3 className="section-title"> Currently we work with </h3>  
+      <h3 className="section-title"> Our partners </h3>  
         <div className="row col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
           {nodes.map((image, index)=>{
             const {name} = image
