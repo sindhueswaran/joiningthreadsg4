@@ -29,7 +29,7 @@ const email = data.site.siteMetadata.email
           <FaEnvelope /> &nbsp; {email} 
         </p>
         </a>
-        <a className="email-link" href="https://www.instagram.com/joiningthreadsjoininglives/"> 
+        <a className="email-link" href="https://www.instagram.com/joiningthreadsjoininglives/" target="_blank"> 
         <p className="section-text"> 
           <FaInstagram /> &nbsp;  Follow Us on Instagram
         </p>
