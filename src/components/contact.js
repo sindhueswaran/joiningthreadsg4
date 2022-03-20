@@ -3,7 +3,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Container, Col } from 'react-bootstrap'
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram } from 'react-icons/fa';
 import ContactForm from "./form";
 
 const Contact = () => {
@@ -22,13 +22,17 @@ const email = data.site.siteMetadata.email
   return (
     <section id="contact"> 
     <Container>
-
-    
       <div  className="mb-5">
         <h3 className="section-title"> Write to us </h3> 
-          <a className="email-link" href="mailto:{email}"> 
+          <a className="email-link" href="mailto:joiningthreads@gmail.com"> 
         <p className="section-text"> 
-          <FaEnvelope /> &nbsp; {email} </p>
+          <FaEnvelope /> &nbsp; {email} 
+        </p>
+        </a>
+        <a className="email-link" href="https://www.instagram.com/joiningthreadsjoininglives/"> 
+        <p className="section-text"> 
+          <FaInstagram /> &nbsp;  Follo Us on Instagram
+        </p>
         </a>
       </div> 
       <Col xs md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }}>
