@@ -12,7 +12,7 @@ const SUPPORTSECTION = {
 const SUPPORT = [
     {
       image: 'support/mandala1.png',
-      text: 'By buying or selling these beautiful products from our colleagues.',
+      text: 'By buying or selling these beautiful products from our craftswomen.',
     },
     {
       image: 'support/mandala2.png',
