@@ -6,7 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import { Container} from 'react-bootstrap'  
 
 const TEAMSECTION = {
-  title: 'Our team',
+  title: 'About us',
   text: 'Barbara and Sindhu’s collaboration and friendship started spontaneously in 2018 when they met in Rishikesh.',
 } 
 
