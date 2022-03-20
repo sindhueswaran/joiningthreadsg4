@@ -17,7 +17,7 @@ module.exports = {
       { name: `PARTNERS`, url: `/#partners`, },
       { name: `ABOUT US`, url: `/#team`, },
       // { name: `PRODUCTS`, url: `/products`, },
-      { name: `BLOG`, url: `/blog`, },
+      { name: `PROJECTS`, url: `/blog`, },
       { name: `CONTACT`, url: `/#contact`, },
     ],
   },
