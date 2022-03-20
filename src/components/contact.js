@@ -31,7 +31,7 @@ const email = data.site.siteMetadata.email
         </a>
         <a className="email-link" href="https://www.instagram.com/joiningthreadsjoininglives/" target="_blank"> 
         <p className="section-text"> 
-          <FaInstagram /> &nbsp;  Follow Us on Instagram
+          <FaInstagram /> &nbsp; follow us on Instagram
         </p>
         </a>
       </div> 
